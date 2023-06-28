@@ -1,0 +1,74 @@
+body, html {
+    height: 100%;
+    background-color: black;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://pixy.org/src/485/4858053.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    background-color: black;
+}
+.copyright-text{
+    font-size: 12px;
+    text-align: center;
+}
+.Encabezado{
+    text-align: center;
+}
+.Titulo{
+    color: chartreuse;
+    font-size: 12vh;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+}
+.SubTitulo{
+    color: gold;
+}
+.Power{
+    color: white;
+}
+.imagen{
+    width: 100%;
+}
+.card-body,.card-header{
+    text-align: center;
+}
+.card-body{
+    background-color: #001964;
+}
+.card-header{
+    background-color: #007bff;
+}
+.Fecha{
+    color: gold;
+}
+#Clima{
+    display:flex;
+    text-shadow: 1px 1px 2px black;
+}
+.Temperatura{
+    color: white;
+    font-size: 12px;
+}
+.Pronostico{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px black;
+}
